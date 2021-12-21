@@ -8,7 +8,7 @@
 #define TARIFA2 1.0
 #define TARIFA3 0.9
 
-int maint(){
+int main(){
 
 	float gasto;
 	float tasa;
@@ -28,7 +28,7 @@ int maint(){
 		tasa = TARIFA3;
 	}
 
-	printf("La tasa a pagar es: %f",tasa);
+	printf("La tasa a pagar es: %.2f",tasa);
 
 	return 0;
 
