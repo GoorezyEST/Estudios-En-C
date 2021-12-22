@@ -1,22 +1,33 @@
 //Ingresar por teclado el nombre, la edad y el sexo de cualquier persona e imprima, solo si la persona es de sexo masculino y mayor de edad, el nombre de la persona.
 
 #include <stdio.h>
+#include <string.h>
 
 int main(){
 
-	char nombre[30],sexo[1];
+	char nombre[30];
+	char sexo[1];
 	int edad;
 
 	printf("Ingrese su nombre: ");
-	gets(nombre);
+	scanf("%s",nombre);
+
+       	printf("\n");
+
 	printf("Ingrese su sexo usando la letra m o f: ");
-	gets(sexo);
+	scanf("%s",sexo);
+
+	printf("\n");
+
 	printf("Ingrese su edad: ");
 	scanf("%i",&edad);
 
+	printf("\n");
+
 	if (strcmp(sexo,"m")==0){
 
-		else if(edad > 18){
+		if(edad >= 18){
+
 			printf("Tu nombre es: %s",nombre);
 		}
 	}
