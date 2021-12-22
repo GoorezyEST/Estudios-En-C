@@ -6,7 +6,7 @@
 int main(){
 
 	char nombre[30];
-	char sexo[1];
+	char sexo[2];
 	int edad;
 
 	printf("Ingrese su nombre: ");
