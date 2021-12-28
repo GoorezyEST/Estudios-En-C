@@ -16,7 +16,7 @@ int main(){
 	while(i <= n){
 
 		suma = suma + i;
-		i = i + 1;
+		i++;
 
 	}
 
