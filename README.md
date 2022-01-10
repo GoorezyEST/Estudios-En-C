@@ -1,2 +1,2 @@
-# ATSProgramacion
-ATSProgramacion
+# Estudios en C
+Estudios en C
